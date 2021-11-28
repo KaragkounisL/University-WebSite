@@ -1,0 +1,7 @@
+<!ELEMENT students (student*)>
+<!ELEMENT student (name, surname, semester, passed_subjects, average)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT semester (#PCDATA)>
+<!ELEMENT passed_subjects (#PCDATA)>
+<!ELEMENT average (#PCDATA)>
