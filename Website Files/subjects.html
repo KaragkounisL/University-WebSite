@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- O τίτλος της σελίδας την επικεφαλίδα του browser -->
+	<title>Ηλεκτρονική Γραμματεία</title>
+	<link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+	<table cellpadding="10" width="100%">
+		<td width="100px"><!-- Λογότυπο-->
+			<a href="./index.html">
+			<img width="200" height="80"  src="./images/logo.png" alt="Λογότυπο"></a>
+		</td>
+		
+		<!-- Εμφάνιση Τίτλος, Είσοδος -->
+		<td align="center" width="1000px">
+			<p><b>ΗΛΕΚΤΡΟΝΙΚΗ ΓΡΑΜΜΑΤΕΙΑ</b></p>
+			<p>ΜΕΤΑΠΤΥΧΙΑΚΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ ΣΠΟΥΔΩΝ</p> 
+			<p>ΣΤΗΝ ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ</p>
+			<p>ΤΜΗΜΑ ΠΛΗΡΟΦΟΡΙΚΗΣ</p>
+			<p>ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ</p>
+		</td>
+		
+		<td align="center" width="200px">		
+			<a href="./login.html">Εισοδος</a>
+		</td>
+	</table>
+	
+	<!-- Δημιουργία γραμμής Menu σε πινακα -->  
+    <h3>
+	<table border="1" cellpadding="10" width="100%">
+		<td align="center"><a href="./index.html" style="text-decoration: none;">Αρχική</a></td>
+        <td align="center" bgcolor="gray"><a href="./subjects.html" style="text-decoration: none;">Μαθήματα</a></td>
+		<td align="center">	
+			<div class="dropdown">
+			Προσωπικό
+			<div class="dropdown-content">
+				<a href="./personnel.html">Διδάσκοντες</a>
+				<a href="./secretary.html">Γραμματεία</a>
+			</div>
+		</td>
+		<td align="center"><a href="./rules.html" style="text-decoration: none;">Κανονισμός Σπουδών</a></td>
+	</table>
+	</h3>
+	
+	<!-- Κεντρικό μέρος  -->
+	<!-- Κατασκευή table και nested table για την εμφάνιση των μαθημάτων -->
+	<b>ΔΙΔΑΣΚΟΝΤΕΣ</b><br>
+	<table cellpadding="0" width="100%" border=1 style="border-collapse:collapse;" >
+		<tr>
+			<td align="center" style="background-color:gray;"><b>Eξάμηνο</b></td>
+			<td align="center" style="background-color:gray;"><b>Μάθημα</b></td>
+			<td align="center" style="background-color:gray;"><b>Διδάσκων</b></td>
+			<td align="center" style="background-color:gray;"><b>Διδακτικές<br>Mονάδες</b></td>
+			<td align="center" style="background-color:gray;"><b>Είδος</b></td>
+		</tr>
+		<tr>
+			<td align="center">1</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Μηχανική Μάθηση</td>
+					</tr>
+					<tr  style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Σημασιολογικός Ιστός</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">Προχωρημένη υπολογιστική όραση</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 1</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 2</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 3</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Βασικό</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Βασικό</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">Βασικό</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">2</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Προγραμματισμός Ευφυών Συστημάτων</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Ανάλυση Βιοσημάτων-Νευροπληροφορική</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">Παιχνίδια και Τεχνητή Νοημοσύνη</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 1</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 2</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 4</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Βασικό</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Βασικό</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">Βασικό</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">3</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Συστήματα Ευφυών Πρακτόρων</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Υπολογιστική Νοημοσύνη- Στατιστική Μάθηση</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Προχωρημένα Θέματα Μηχανικής Μάθησης</td>
+					</tr style="border-bottom:1px solid;">
+					<tr>
+						<td align="center" style="color:blue;">Φιλοσοφία και Ηθική της Τεχνητής Νοημοσύνης</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 1</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 2</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 3</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">Όνομα διδάσκοντα 4</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:blue;">5</td>
+					</tr>
+				</table>
+			</td>
+			<td align="center">
+				<table width="100%" style="border-collapse: collapse;" cellpadding="10">
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Βασικό</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:blue;">Βασικό</td>
+					</tr>
+					<tr style="border-bottom:1px solid;">
+						<td align="center" style="color:green;">Επιλογής</td>
+					</tr>
+					<tr>
+						<td align="center" style="color:green;">Επιλογής</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+	</table>
+	
+	
+	
+	<br style="line-height:5;">
+	<!-- Κάτω μέρος σελίδας -->
+	<table width="100%" cellpadding="2">
+	<hr>
+	<td>
+		<p><b>Eπικοινωνήστε μαζί μας</b></p>
+		<p>Τηλέφωνο: 2310998930</br>Email: <a href="mailto:pms_info@csd.auth.gr">pms_info@csd.auth.gr</a></p>
+	</td>
+	
+	<td align="left">
+		<td width="130px"><p><a href="./privacy.html" >Όροι χρήσης</a></p></td>
+		<td width="0px">|</td>
+		<td width="180px"><p><a href="./privacy.html">Πολιτική απορρήτου</a></p></td>
+	</td>
+	</table>
+	<hr>	
+</body>
+</html>

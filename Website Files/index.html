@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- O τίτλος της σελίδας την επικεφαλίδα του browser -->
+	<title>Ηλεκτρονική Γραμματεία</title>
+	<link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+	<table cellpadding="10" width="100%">
+		<td width="100px"><!-- Λογότυπο-->
+			<a href="./index.html">
+			<img width="200" height="80"  src="./images/logo.png" alt="Λογότυπο"></a>
+		</td>
+		
+		<!-- Εμφάνιση Τίτλος, Είσοδος -->
+		<td align="center" width="1000px">
+			<p><b>ΗΛΕΚΤΡΟΝΙΚΗ ΓΡΑΜΜΑΤΕΙΑ</b></p>
+			<p>ΜΕΤΑΠΤΥΧΙΑΚΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ ΣΠΟΥΔΩΝ</p> 
+			<p>ΣΤΗΝ ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ</p>
+			<p>ΤΜΗΜΑ ΠΛΗΡΟΦΟΡΙΚΗΣ</p>
+			<p>ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ</p>
+		</td>
+		
+		<td align="center" width="200px">		
+			<a href="./login.html">Εισοδος</a>
+		</td>
+	</table>
+	
+    <!-- Δημιουργία γραμμής Menu σε πινακα -->  
+    <h3>
+	<table border="1" cellpadding="10" width="100%">
+		<td align="center" bgcolor="gray"><a href="./index.html" style="text-decoration: none;">Αρχική</a></td>
+        <td align="center"><a href="./subjects.html" style="text-decoration: none;">Μαθήματα</a></td>
+		<td align="center">	
+			<div class="dropdown">
+			Προσωπικό
+			<div class="dropdown-content">
+				<a href="./personnel.html">Διδάσκοντες</a>
+				<a href="./secretary.html">Γραμματεία</a>
+			</div>
+		</td>
+		<td align="center"><a href="./rules.html" style="text-decoration: none;">Κανονισμός Σπουδών</a></td>
+	</table>
+	</h3>
+	
+	<!-- Κεντρικό μέρος  -->
+	<!-- Κατασκευή table 4 column για την παρουσίαση της οθόνης εισόδου με 10/40/40/10 πλάτη. 
+		 Ανακοίνωση σε καινούργια γραμμή, photo σε column πλάτους 10, ενώ το κείμενο ανακοίνωσης κανει span στα υπόλοιπα column  -->
+	<b>ΑΝΑΚΟΙΝΩΣΕΙΣ</b><br style="line-height:5;">
+	
+	<table style="width:100%" cellpadding="10">
+		<colgroup>
+			<col width="10%">
+			<col width="40%">
+			<col width="40%">
+			<col width="10%">
+		</colgroup>
+		<tr>
+			<td><img width="100" height="100"  src="./images/announce.png" alt="Λογότυπο"></td>
+			<td colspan="3"><a href="./announce1.html"><b>Τίτλος ανακοίνωσης 1</b></a><br style="line-height:3;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac tempor ligula. Pellentesque quis turpis risus."</td>
+		</tr>
+		<tr>
+			<td colspan="3" align="right"><a href="./announce2.html"><b>Τίτλος ανακοίνωσης 2</b></a><br style="line-height:3;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac tempor ligula. Pellentesque quis turpis risus."</td>
+			<td align="right"><img width="100" height="100"  src="./images/announce.png" alt="Λογότυπο"></td>
+		</tr>
+		<tr>
+			<td><img width="100" height="100"  src="./images/announce.png" alt="Λογότυπο"></td>
+			<td colspan="3"><a href="./announce3.html"><b>Τίτλος ανακοίνωσης 3</b></a><br style="line-height:3;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac tempor ligula. Pellentesque quis turpis risus."</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><br style="line-height:5;"><a href="./announcements.html"><b>OΛΕΣ ΟΙ ΑΝΑΚΟΙΝΩΣΕΙΣ</b></a>
+			</td>
+		</tr>
+	</table>
+	<br style="line-height:5;">
+	
+	<!-- Κάτω μέρος σελίδας -->
+	<table width="100%" cellpadding="2">
+	<hr>
+	<td>
+		<p><b>Eπικοινωνήστε μαζί μας</b></p>
+		<p>Τηλέφωνο: 2310998930</br>Email: <a href="mailto:pms_info@csd.auth.gr">pms_info@csd.auth.gr</a></p>
+	</td>
+	
+	<td align="left">
+		<td width="130px"><p><a href="./privacy.html" >Όροι χρήσης</a></p></td>
+		<td width="0px">|</td>
+		<td width="180px"><p><a href="./privacy.html">Πολιτική απορρήτου</a></p></td>
+	</td>
+	</table>
+	<hr>	
+	
+</body>
+</html>
